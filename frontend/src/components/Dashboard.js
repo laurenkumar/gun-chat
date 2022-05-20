@@ -152,6 +152,7 @@ export const Dashboard = () => {
             }
             else {
                 gun.get("eUfOJl1mmiz6n0fColrU0cTY").once(data => {
+                    console.log(data)
                     let userExists = false;
                     for (const prop in data) {
                         if (friendSearch === prop) {
