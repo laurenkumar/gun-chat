@@ -126,7 +126,7 @@ export function AuthProvider({ children }) {
     }
     return (
         <AuthContext.Provider value={value}>
-            {loading ? <div style={{ display: 'flex', backgroundImage: '#000', height: '100vh', justifyContent: 'center', alignItems: 'center' }}><ReactLoading type={'bars'} color={'white'} height={200} width={112} /> </div> : isServerDown ? <div><h1>sorry server is down, come back later</h1></div> : children}
+            {loading ? <div style={{ display: 'flex', backgroundColor: '#000', height: '100vh', justifyContent: 'center', alignItems: 'center' }}><ReactLoading type={'bars'} color={'white'} height={200} width={112} /> </div> : isServerDown ? <div><h1>sorry server is down, come back later</h1></div> : children}
         </AuthContext.Provider>
     )
 }

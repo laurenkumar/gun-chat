@@ -4,12 +4,10 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { MoralisProvider } from "react-moralis";
-import './fonts/pixeboy/Pixeboy.ttf';
-import './fonts/pixellari/Pixellari.ttf';
 
 ReactDOM.render(
   <React.StrictMode>
-    <MoralisProvider appId='fGasuAdAzKAwcd1NmQ6MjxMBDpEh8frbuJWpxSVq' serverUrl='https://as7gs0ed52qy.usemoralis.com:2053/server'>
+    <MoralisProvider appId='mIsxPYsFQhnFjbcQTnkzmBeRkQU34pX93GsIsxlx' serverUrl='https://cifnrd4zag9b.usemoralis.com:2053/server'>
       <App />
     </MoralisProvider>
   </React.StrictMode >,
