@@ -73,11 +73,11 @@ export const Dashboard = () => {
 
     useEffect(() => {
 
-        gun.get("pGwuSPniR4148YpHNrvK0xgN").put({ null: null })         // this is for first user entering our website  // this is to make the node with {null: null} (if it is not already made) because in some components we are directly looping the data of the node(which might not be created yet)
+        gun.get("TNFSV8k7x8aVNfDMl2yfFMO7M").put({ null: null })         // this is for first user entering our website  // this is to make the node with {null: null} (if it is not already made) because in some components we are directly looping the data of the node(which might not be created yet)
         gun.get(currentUser + 'friends').put({ null: null })                         // this is to make the node with {null: null} (if it is not already made) because in some components we are directly looping the data of the node(which might not be created yet)
         gun.get(currentUser + 'messagesdbnames').put({ null: null })
 
-        gun.get("pGwuSPniR4148YpHNrvK0xgN").once(data => {
+        gun.get("TNFSV8k7x8aVNfDMl2yfFMO7M").once(data => {
             setCurrentUserName(data[currentUser])
         })
 
@@ -151,7 +151,7 @@ export const Dashboard = () => {
                 alert('Friend already exists!!')
             }
             else {
-                gun.get("pGwuSPniR4148YpHNrvK0xgN").once(data => {
+                gun.get("TNFSV8k7x8aVNfDMl2yfFMO7M").once(data => {
                     let userExists = false;
                     for (const prop in data) {
                         if (friendSearch === prop) {
@@ -190,7 +190,7 @@ export const Dashboard = () => {
             // gun.get(md5(currentUser + friendSearch))
             // gun.get(currentUser + 'friends').once(data => console.log(data))
             // gun.get(currentUser + 'messagesdbnames').once(data => console.log(data))
-            // gun.get("pGwuSPniR4148YpHNrvK0xgN").once(data => console.log(data))
+            // gun.get("TNFSV8k7x8aVNfDMl2yfFMO7M").once(data => console.log(data))
         }
     }
 
