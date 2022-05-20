@@ -35,7 +35,7 @@ export function AuthProvider({ children }) {
     }
 
     const handleAxios = (account, callback) => {
-        return axios.get('https://dchat-relay-server.herokuapp.com/moralisQuery')
+        return axios.get('https://gunipfschat.herokuapp.com/moralisQuery')
             .then(response => {
                 // console.log(response)
                 if (response.data.length === 0) {

@@ -14,7 +14,7 @@ const nanoid = customAlphabet(alphabet, 15);
 
 const gun = Gun({
     peers: [
-        'https://dchat-relay-server.herokuapp.com/gun'
+        'https://gunipfschat.herokuapp.com/gun'
     ]
 })
 
