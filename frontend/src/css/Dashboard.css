@@ -244,7 +244,6 @@ span:nth-child(2) {
     padding: 0.6rem;
     padding-bottom: 1.5rem;
     margin: 1rem;
-    transform: skew(5deg);
     box-shadow: 7px 7px #000000;
 }
 
@@ -262,7 +261,6 @@ span:nth-child(2) {
     padding: 0.6rem;
     padding-bottom: 1.5rem;
     margin: 1rem;
-    transform: skew(-5deg);
     box-shadow: -7px 7px #000000;
 }
 

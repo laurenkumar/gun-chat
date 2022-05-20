@@ -315,6 +315,7 @@ export const Dashboard = () => {
                         <div className='messageInputDivDash'>
                             <form onSubmit={e => {
                                 e.preventDefault();
+                                console.log(currentMessage.current.value)
                                 if (currentMessage.current.value === undefined || currentMessage.current.value === '') {
 
                                 }
