@@ -1,33 +1,25 @@
-/* @import url('http://fonts.cdnfonts.com/css/pixeboy');
-@import url('http://fonts.cdnfonts.com/css/pixellari'); */
-@import url("https://fonts.googleapis.com/css?family=Dekko|Lato:900|Rock+Salt");
-@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
-@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 *{
     margin: 0;
     padding: 0;
 }
 ::-webkit-scrollbar {
-    width: 12px;
-    height: 12px;
+    width: 5px;
+    height: 5px;
     
   }
 ::-webkit-scrollbar-track {
     border-radius: 10px;
   }
 ::-webkit-scrollbar-thumb {
-    background-color: #e78632;
+    background-color: #fff;
     background-image:-webkit-linear-gradient(45deg,rgba(255,255,255,.3) 20%,transparent 20%,transparent 40%,rgba(255, 255, 255, 0.3) 40%,rgba(255,255,255,.3) 60%,transparent 60%,transparent 80%,rgba(255, 255, 255, 0.3) 80%);
-    border-radius: 10px;
+    border-radius: 5px;
   }
 
 .mainDivDash{
     display: flex;
     flex: 1;
     flex-direction: column;
-    background-image: white;
     height: 100vh;
     width: 100vw;  
 }
@@ -40,28 +32,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #fc3153;
 }
 
 .mainTitleDash {
-    font-family: 'Pixeboy', sans-serif;
+    font-family: sans-serif;
     font-size: 5rem;      
-    color: white;   
+    color: #000;   
     font-weight: 400;
-    text-shadow: 1px 1px hsl(200 50% 30%), 2px 2px hsl(200 50% 30%), 3px 3px hsl(200 50% 30%), 4px 4px hsl(200 50% 30%), 5px 5px hsl(200 50% 30%), 6px 6px hsl(200 50% 30%), 7px 7px hsl(200 50% 30%)
+    text-shadow: 1px 1px hsl(0 0 100%), 2px 2px hsl(0 0 100%), 3px 3px hsl(0 0 100%), 4px 4px hsl(0 0 100%), 5px 5px hsl(0 0 100%), 6px 6px hsl(0 0 100%), 7px 7px hsl(0 0 100%)
 }
 
 .dOfdChatDash {
-    font-family: 'Pixellari', sans-serif;
+    font-family: sans-serif;
     font-size: 3.6rem;    
     color: white;   
     font-weight: 400;
-    text-shadow: 1px 1px hsl(200 50% 30%), 2px 2px hsl(200 50% 30%), 3px 3px hsl(200 50% 30%), 4px 4px hsl(200 50% 30%), 5px 5px hsl(200 50% 30%), 6px 6px hsl(200 50% 30%), 7px 7px hsl(200 50% 30%)
+    text-shadow: 1px 1px hsl(0 0 100%), 2px 2px hsl(0 0 100%), 3px 3px hsl(0 0 100%), 4px 4px hsl(0 0 100%), 5px 5px hsl(0 0 100%), 6px 6px hsl(0 0 100%), 7px 7px hsl(0 0 100%)
 
 }
 
 .currentUserNameDash {
-    font-family: 'Marck Script', cursive;
+    font-family: sans-serif;
     font-size: 3.75rem;
 }
 
@@ -91,7 +82,6 @@
     position: relative;
     align-items: center;
     justify-content: center;
-    background-image:radial-gradient(circle, lightcoral, tomato);
     padding-right: 2.5rem;
 }
 
@@ -99,7 +89,7 @@
     width: 90%;
     padding: 0.4rem;
     padding-right: 2rem;
-    font-family: 'Pixeboy', sans-serif;
+    font-family: sans-serif;
     font-size: 1.25rem;
     margin-top: 0.7rem;
     margin-right: 2rem;
@@ -132,7 +122,6 @@
     flex: 9;
     padding: 1rem;
     overflow-y: auto;
-    background-image:radial-gradient(circle, yellow, orange);
 }
 
 .nameOfFriendsDash {
@@ -142,7 +131,7 @@
     overflow-x: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
     font-size: 35px;
     width: 90%;
     padding-right: 1rem;
@@ -151,7 +140,6 @@
     background: #6225E6;
     transition: 1s;
     box-shadow: 6px 6px 0 black;
-    transform: skewX(-15deg);
     cursor: pointer;
     margin-bottom: 2rem;
     align-items: center;
@@ -213,7 +201,6 @@ span:nth-child(2) {
     box-shadow:0 6px 6px -6px #000;
     margin:0.5vmin;
     display: flex;
-    background-image:radial-gradient(circle, #cd4ffd, #b501ff);
     align-items: center;
     height: 4.35rem;   
 }
@@ -222,11 +209,10 @@ span:nth-child(2) {
     display: flex;
     align-items: center;
     margin-left: 1rem;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: sans-serif;
     font-size: 3rem;
     letter-spacing: 2px;
-    color: #fff;
-    -webkit-text-stroke: 1px black;
+    color: #000;
 }
 
 .friendsIdenticonSecond {
@@ -246,9 +232,6 @@ span:nth-child(2) {
     padding-left: 1rem;
     padding-right: 1rem;
     padding-bottom: 1rem;
-    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(0)" opacity="0.2" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23250E17"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'),
-    #c52754;
-    background-size: 15px, 100%;
 }
 
 .ownChatTextDivDash {
@@ -257,10 +240,8 @@ span:nth-child(2) {
     width: max-content;
     min-width: 7rem;
     max-width: 34rem;
-    font-family: "Dekko", cursive;
+    font-family: sans-serif;
     font-size: 1.5rem;
-    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(25)" opacity="0.8" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="%23d68810"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'),
-    #ffcd28de;
     background-size: 13px, 100%;
     font-weight: 700;
     height: fit-content;
@@ -278,11 +259,8 @@ span:nth-child(2) {
     width: max-content;
     min-width: 7rem;
     max-width: 34rem;
-    font-family: "Dekko", cursive;
+    font-family: sans-serif;
     font-size: 1.5rem;
-    background: url('data:image/svg+xml;utf8,<svg width="100" height="100" transform="rotate(25)" opacity="0.3" version="1.1" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><g  fill="royalblue"><circle cx="25" cy="25" r="12.5"/><circle cx="75" cy="75" r="12.5"/><circle cx="75" cy="25" r="12.5"/><circle cx="25" cy="75" r="12.5"/></g></svg>'),
-    rgb(49, 214, 243);
-    background-size: 13px, 100%;
     font-weight: 700;
     height: fit-content;
     border: 0.2rem solid #000;
@@ -301,14 +279,12 @@ span:nth-child(2) {
     right: 0.2rem;
     padding-left: 0.1rem;
     padding-right: 0.1rem;
-    background-color: rgb(42, 212, 27);
 }
 
 .messageInputDivDash{
     border:solid 2px #000;
     box-shadow:0 6px 6px -6px #000;
     margin:0.5vmin;
-    background-image:radial-gradient(circle, palegreen, yellowgreen);
     flex: 1 ;
     height: 4rem;
     padding-right: 1rem;
@@ -319,7 +295,7 @@ span:nth-child(2) {
     width: 91%;
     padding: 0.4rem;
     padding-right: 2rem;
-    font-family: "Dekko", cursive;
+    font-family: sans-serif;
     font-size: 1.2rem;
     font-weight: 700;
     margin-top: 1rem;

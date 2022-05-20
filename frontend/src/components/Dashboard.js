@@ -253,7 +253,7 @@ export const Dashboard = () => {
     return (
         <div className='mainDivDash'>
             <div className='topBarDash'>
-                <h1 className='mainTitleDash'>Welcome to <span className='dOfdChatDash'>d</span>Chat,<span className='currentUserNameDash'>{currentUserName}</span> </h1>
+                <h1 className='mainTitleDash'>Welcome to DefiChat,<span className='currentUserNameDash'>{currentUserName}</span> </h1>
             </div>
             <div className='otherThanTopBarDivDash'>
                 <div className='leftDivDash'>
