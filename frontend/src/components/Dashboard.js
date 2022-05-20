@@ -135,7 +135,7 @@ export const Dashboard = () => {
         else {
             let friendAlreadyExist = false;
             gun.get(currentUser + 'friends').on(data => {
-
+                console.log(data)
                 for (const prop in data) {
                     if (friendSearch === prop) {
                         friendAlreadyExist = true;

@@ -137,7 +137,7 @@
     padding-right: 1rem;
     margin-left: 0.25rem;
     color: white;
-    background: #6225E6;
+    background: #000;
     transition: 1s;
     box-shadow: 6px 6px 0 black;
     cursor: pointer;
@@ -152,7 +152,7 @@
  
  .nameOfFriendsDash:hover {
     transition: 0.25s;
-    box-shadow: 10px 10px 0 #c52754;
+    box-shadow: 10px 10px 0 #000;
 }
  
 .nameOfFriendsDash span:nth-child(2) {
@@ -165,11 +165,7 @@
     margin-right: 45px;
     font-size: 40px;
 }
- 
-span {
-    transform: skewX(15deg) 
-}
- 
+
 span:nth-child(2) {
      width: 20px;
      margin-left: 30px;
@@ -180,7 +176,6 @@ span:nth-child(2) {
 .friendsIdenticon {
     margin-left: 1.5rem;
     margin-right: -1rem;
-    transform: skewX(15deg);
     background-color: rgb(83, 83, 83);
     border:solid 2px #000;
 }
